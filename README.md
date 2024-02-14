@@ -71,6 +71,11 @@ where `mu` is the location parameter and `beta > 0` is the scale parameter.
 To use in Observable,
 
 ```javascript
+mgf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-mgf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-gumbel-mgf/tags). For example,
+
+```javascript
 mgf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-mgf@v0.2.0-umd/browser.js' )
 ```
 
@@ -83,7 +88,7 @@ var mgf = require( 'path/to/vendor/umd/stats-base-dists-gumbel-mgf/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-mgf@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-mgf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -179,7 +184,7 @@ y = myMGF( -1.0 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-mgf@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-mgf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
