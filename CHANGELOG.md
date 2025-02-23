@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-08)
+## Unreleased (2025-02-23)
+
+<section class="features">
+
+### Features
+
+-   [`3eff83f`](https://github.com/stdlib-js/stdlib/commit/3eff83f89e26a589f041538aa34fe47446cbdde8) - add C implementation of `stats/base/dists/gumbel/mgf`  [(#4168)](https://github.com/stdlib-js/stdlib/pull/4168)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3650](https://github.com/stdlib-js/stdlib/issues/3650)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`3eff83f`](https://github.com/stdlib-js/stdlib/commit/3eff83f89e26a589f041538aa34fe47446cbdde8) - **feat:** add C implementation of `stats/base/dists/gumbel/mgf`  [(#4168)](https://github.com/stdlib-js/stdlib/pull/4168) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
 -   [`105b812`](https://github.com/stdlib-js/stdlib/commit/105b8121cd65f5bb520351b48c945996e1dfb6aa) - **bench:** refactor random number generation in `stats/base/dists/gumbel` [(#4933)](https://github.com/stdlib-js/stdlib/pull/4933) _(by Karan Anand, stdlib-bot)_
 
 </details>
@@ -24,9 +47,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
+-   Vinit Pandit
 
 </section>
 
